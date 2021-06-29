@@ -1,0 +1,39 @@
+
+.nav-item{
+    margin-left: 2.2em;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+.home{
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#about{
+    padding: 7rem 0rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#project{
+    padding: 7rem 0rem;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: rgb(233, 233, 232); */
+}
+
+#contact{
+    padding: 7rem 0rem;
+}
+
+footer{
+    background-color: #fafaf5;
+}
+
+section{
+    min-height: 600px;
+}
+
+
