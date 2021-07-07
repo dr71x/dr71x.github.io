@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 
 .nav-item{
     margin-left: 2.2em;
@@ -8,7 +12,7 @@
 }
 .home{
     padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-bottom: 7rem;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -19,7 +23,7 @@
 }
 
 #project{
-    padding: 7rem 0rem;
+    padding: 8rem 0rem;
     font-family: 'Roboto', sans-serif;
     /* background-color: rgb(233, 233, 232); */
 }
@@ -34,6 +38,16 @@ footer{
 
 section{
     min-height: 600px;
+}
+
+.active::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    border-radius: 3px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
 }
 
 
